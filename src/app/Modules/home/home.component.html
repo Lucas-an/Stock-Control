@@ -1,8 +1,8 @@
 <div class="grid">
   <div class="col-12">
     <div class="flex justify-content-center align-content-center text-align-center">
-      <!--LOGIN-->
-      <form>
+
+      <form> <!--INICIO LOGIN-->
         <p-card
         styleClass="mt-10"
         header="Login"
@@ -31,7 +31,46 @@
             class="flex justify-content-center align-content-center text-align-center mt-3 text-red-600 font-semibold"
             >Criar Conta</span>
       </p-card>
-      </form>
+      </form><!--FIM LOGIN-->
+
+      <form> <!--INICIO SIGNUP-->
+        <p-card
+        styleClass="mt-10"
+        header="Criar conta"
+        subheader="Crie já sua conta gratuita!"
+        >
+
+            <div class="flex justify-content-center align-content-center text-align-center">
+              <input type="text" pInputText placeholder="Nome">
+            </div>
+
+            <div class="flex justify-content-center align-content-center text-align-center mt-3"
+            >
+              <input type="email" pInputText placeholder="Email">
+            </div>
+
+            <div class="flex justify-content-center align-content-center text-align-center mt-3"
+            >
+              <input type="password" pInputText placeholder="Senha">
+            </div>
+
+            <div class="card flex justify-content-center mt-3">
+                <button
+                type="submit"
+                pButton
+                pRipple
+                label="Criar conta"
+                ></button>
+            </div>
+
+            <span
+            class="flex justify-content-center align-content-center text-align-center mt-3 text-red-600 font-semibold"
+            >Fazer login</span>
+      </p-card>
+      </form><!--FIM SIGNUP-->
+
+
+
     </div>
   </div>
 </div>
